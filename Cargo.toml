@@ -1,0 +1,11 @@
+[package]
+name = "aegisub_converter"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+regex = "1"
+
+[build-dependencies]
+winres = "0.1"
